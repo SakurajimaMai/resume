@@ -2,109 +2,134 @@
 <html lang="en">
 
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <meta http-equiv="X-UA-Compatible" content="ie=edge">
-  <title>resume test</title>
-  <link rel="stylesheet" href="./a.css">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>resume test</title>
+    <link rel="stylesheet" href="./a.css">
+    <script src="//at.alicdn.com/t/font_993192_tifb5h16sq9.js"></script>
+    <style type="text/css">
+        .icon {
+            width: 1em;
+            height: 1em;
+            vertical-align: -0.15em;
+            fill: currentColor;
+            overflow: hidden;
+        }
+    </style>
 </head>
 
 <body>
-  <!-- 导航条（图标+文字导航） -->
-  <div class="topNavBar clearfix">
-      <a class="logo" href="#" alt=logo>
-      <span class="rs">RS</span><span class="card">card</span>
-    </a>
-    <nav>
-      <ul class="clearfix">
-        <li><a href="#">关于</a></li>
-        <li><a href="#">技能</a></li>
-        <li><a href="#">作品</a></li>
-        <li><a href="#">博客</a></li>
-        <li><a href="#">日历</a></li>
-        <li><a href="#">联系方式</a></li>
-        <li><a href="#">其他</a></li>
-      </ul>
-    </nav>
-  </div>
-  <!-- 背景图片 -->
-  <div class="banner" style="background-image:url(#)"></div>
-  <!-- 个人介绍 -->
-  <main>
-    <!-- 名片 -->
-    <div class="card">
-      <!-- 个人介绍 -->
-      <div class="summary">
-        <div class="pickture">
-          <img src="" alt="头像">
+    <!-- 导航条（图标+文字导航） -->
+    <div class="topNavBar ">
+        <div class="topNavBar-inner clearfix">
+            <a class="logo" href="#" alt=logo>
+                <span class="rs">RS</span><span class="card">card</span>
+            </a>
+            <nav>
+                <ul class="clearfix">
+                    <li><a href="#">关于</a></li>
+                    <li><a href="#">技能</a></li>
+                    <li><a href="#">作品</a></li>
+                    <li><a href="#">博客</a></li>
+                    <li><a href="#">日历</a></li>
+                    <li><a href="#">联系方式</a></li>
+                    <li><a href="#">其他</a></li>
+                </ul>
+            </nav>
         </div>
-        <div class="text">
-          <span class="wellcome">hello</span>
-          <h1>方应杭</h1>
-          <p>前端开发工程师</p>
-          <hr>
-          <dl>
-            <dt>年龄</dt>
-            <dd>18</dd>
-            <dt>所在城市</dt>
-            <dd>杭州</dd>
-            <dt>邮箱</dt>
-            <dd>fangyinghang@foxmail.com</dd>
-            <dt>手机</dt>
-            <dd>13812345678</dd>
-          </dl>
-        </div>
-      </div>
-      <!-- 社交媒体 -->
-      <footer class="media">
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-        <a href="#"><img src="#" alt="..."></a>
-      </footer>
+    </div>
+    <!-- 背景图片 -->
+    <div class="banner">
+        <div class="mask"></div>
+    </div>
+    <!-- 个人介绍 -->
+    <main>
+        <!-- 名片 -->
+        <div class="usercard">
+            <!-- 个人介绍 -->
+            <div class="summary clearfix">
+                <div class="picture">
+                    <img src="./img/avadar.jpg" width=299 height=347 alt="头像">
+                </div>
+                <div class="text">
+                    <span class="wellcome">HELLO
+                        <span class="triangle"></span>
+                    </span>
+                    <h1>陈一品</h1>
+                    <p>前端开发工程师</p>
+                    <hr>
+                    <dl class="clearfix">
+                        <dt>年龄</dt>
+                        <dd>18</dd>
+                        <dt>所在城市</dt>
+                        <dd>杭州</dd>
+                        <dt>邮箱</dt>
+                        <dd>516311489@qq.com</dd>
+                        <dt>手机</dt>
+                        <dd>19941299970</dd>
+                    </dl>
+                </div>
+            </div>
+            <!-- 社交媒体 -->
+            <footer class="media">
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-github1"></use>
+                    </svg></a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-zhihu-circle-fill"></use>
+                    </svg></a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-weibo2"></use>
+                    </svg></a>
+                <a href="#">
+                    <svg class="icon" aria-hidden="true">
+                        <use xlink:href="#icon-tuitetwitter43"></use>
+                    </svg></a>
 
-    </div>
-    <!-- 下载简历 -->
-    <a href="#" class="button">下载简历</a>
-    <!-- 简介 -->
-    <div class="jianjie">
-      <p>
-        方应杭， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。<br>
-        技能：前端开发，Rails 开发，Node.js 开发 <br>
-      </p>
-    </div>
-  </main>
-  <!-- 技能 -->
-  <section>
-    <h2>技能</h2>
-    <ol>
-      <li>HTML 5 &amp; CSS 3</li>
-      <li>JavaScript</li>
-      <li>jQuery</li>
-      <li>vue</li>
-      <li>React</li>
-      <li>HTTP</li>
-    </ol>
-  </section>
-  <!-- 作品集 -->
-  <section>
-    <h2>作品集</h2>
-    <nav>
-      <ol>
-        <li>所有</li>
-        <li>框架</li>
-        <li>原声JS&amp;CSS</li>
-      </ol>
-    </nav>
-    <div class="jobs">
-      <div class="big"></div>
-      <div class="small"></div>
-      <div class="small"></div>
-    </div>
-  </section>
+            </footer>
+
+        </div>
+        <!-- 下载简历 -->
+        <a href="#" class="button">下载简历</a>
+        <!-- 简介 -->
+        <div class="jianjie">
+            <p>
+                方应杭， 资深前端工程师，资深前端讲师，现在在 饥人谷 教前端课程。<br> 技能：前端开发，Rails 开发，Node.js 开发 <br>
+            </p>
+        </div>
+    </main>
+    <!-- 技能 -->
+    <section>
+        <h2>技能</h2>
+        <ol>
+            <li>HTML 5 &amp; CSS 3</li>
+            <li>JavaScript</li>
+            <li>jQuery</li>
+            <li>vue</li>
+            <li>React</li>
+            <li>HTTP</li>
+        </ol>
+    </section>
+    <!-- 作品集 -->
+    <section>
+        <h2>作品集</h2>
+        <nav>
+            <ol>
+                <li>所有</li>
+                <li>框架</li>
+                <li>原声JS&amp;CSS</li>
+            </ol>
+        </nav>
+        <div class="jobs">
+            <div class="big"></div>
+            <div class="small"></div>
+            <div class="small"></div>
+        </div>
+    </section>
 </body>
 
 </html>
